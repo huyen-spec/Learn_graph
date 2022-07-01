@@ -28,7 +28,7 @@ Bipartite graph:
   edge_index: ex:[2, 1000]: there are 1000 edges (edges different from num of nodes), first row the index of source node and second row target node -> t he node edge_index[0][i] is connected to edge_index[1][i]
   
   def message(self, x_j, edge_index, size):
-    # x_j has shape [num_edges, out_channels]
+    #x_j has shape [num_edges, out_channels]
     
   obtained x and edge_index, we can get x_j = (x[edge_index[0]] or x[edge_index[1]]) which is the souce node's features
   

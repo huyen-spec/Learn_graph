@@ -6,13 +6,16 @@ Graph basics:
 # Graph data:
 + Nodes
 + Egdes
-+ Adjacency matrix:
-+ Bipartite graph:
++ Adjacency matrix
++ Bipartite graph: A graph that can be seperated into 2 independent sets where there is no link between the vertex that nelong to the same half.
 
 # Graph neural networks:
 + Graph convolution network GCN:
-+ GraphSage:
-+ Graph Attention Network
+Formula:
+      H(l+1)=σ(D^−1/2A^D^−1/2H(l)W(l))
+    D the adjacency matrix and W the weight of convolution applied on the nodes. Just a matrix multiplication to get sum of neighboring nodes (the non-related nodes have index ) in the adjacency matrix) after the node is linearly transformed.
++ GraphSage: Use sampling techniques to obtain the most important nodes for aggregation. 
++ Graph Attention Network: Use attention mechanism to compute the weights of aggregation among nodes.
 + GIN:
 
 # Implementation of GCN

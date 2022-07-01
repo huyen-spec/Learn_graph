@@ -37,14 +37,14 @@ Bipartite graph:
 # Constructing a bipartite graph from prescriptions
   we count the coocurrences of pills in the presciption and then indirectly construct pill-pill relationships based on the NLP formula:
 
-About Apriori
+# About Apriori
 An association mining problem can be decomposed into two subproblems:
 
 Find all combinations of items in a set of transactions that occur with a specified minimum frequency. These combinations are called frequent itemsets. (See "Frequent Itemsets" for an example.)
 
 Calculate rules that express the probable co-occurrence of items within frequent itemsets. (See "Example: Calculating Rules from Frequent Itemsets".)
 
-# Apriori calculates the probability of an item being present in a frequent itemset, given that another item or items is present.
+Apriori calculates the probability of an item being present in a frequent itemset, given that another item or items is present.
 
 Association rule mining is not recommended for finding associations involving rare events in problem domains with a large number of items. Apriori discovers patterns with frequency above the minimum support threshold. Therefore, in order to find associations involving rare events, the algorithm must run with very low minimum support values. However, doing so could potentially explode the number of enumerated itemsets, especially in cases with a large number of items. This could increase the execution time significantly. Classification or anomaly detection may be more suitable for discovering rare events when the data has a high number of attributes.
 

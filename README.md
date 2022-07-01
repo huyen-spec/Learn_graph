@@ -36,7 +36,7 @@ https://mlabonne.github.io/blog/graphsage/
       # x has shape [num_nodes, in_channels]
       # edge_index has shape [2, E]
   x: input, ex: x:[10,200] -> there are 10 nodes, each with dim 200
-  edge_index: ex:[2, 1000]: there are 1000 edges (edges different from num of nodes), first row the index of source node and second row target node -> t he node edge_index[0][i] is connected to edge_index[1][i]
+  edge_index: ex:[2, 1000]: there are 1000 edges (edges different from num of nodes), first row the index of source node and second row target node -> the node edge_index[0][i] is connected to edge_index[1][i]
   
   def message(self, x_j, edge_index, size):
     #x_j has shape [num_edges, out_channels]
@@ -47,6 +47,8 @@ https://mlabonne.github.io/blog/graphsage/
 
 # Constructing a bipartite graph from prescriptions
   we count the coocurrences of pills in the presciption and then indirectly construct pill-pill relationships based on the NLP formula:
+  ![image](https://user-images.githubusercontent.com/62921312/176898061-418c84b0-1a56-458c-8308-915c71ee4dc1.png)
+
 
 # About Apriori
 An association mining problem can be decomposed into two subproblems:

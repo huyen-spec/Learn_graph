@@ -11,7 +11,7 @@ Graph basics:
 
 # Graph neural networks:
 + Graph convolution network GCN:
-Formula:
+\Formula:
       H(l+1)=σ(D^−1/2A^D^−1/2H(l)W(l))
     D the adjacency matrix and W the weight of convolution applied on the nodes. Just a matrix multiplication to get sum of neighboring nodes (the non-related nodes have index ) in the adjacency matrix) after the node is linearly transformed.
 + GraphSage: Use sampling techniques to obtain the most important nodes for aggregation. 

@@ -48,7 +48,11 @@ https://mlabonne.github.io/blog/graphsage/
 # Constructing a bipartite graph from prescriptions
   we count the coocurrences of pills in the presciption and then indirectly construct pill-pill relationships based on the NLP formula:
   ![image](https://user-images.githubusercontent.com/62921312/176898061-418c84b0-1a56-458c-8308-915c71ee4dc1.png)
-
+where:
+• MP Q, MP , MQ and M denote the set of prescriptions that P , Q co-occur, P occurs, Q occurs and all pills
+occur, respectively.
+• | . . . | denotes the cardinality of a given set.
+• WP −Q denotes the weight between diagnose P and pill Q
 
 # About Apriori
 An association mining problem can be decomposed into two subproblems:

@@ -4,10 +4,10 @@ Graph basics:
 
 
 # Graph data:
-Nodes
-Egdes
-Adjacency matrix:
-Bipartite graph:
++ Nodes
++ Egdes
++ Adjacency matrix:
++ Bipartite graph:
 
 # Graph neural networks:
 + Graph convolution network GCN:

@@ -14,9 +14,16 @@ Graph basics:
 Formula:
       H(l+1)=σ(D^−1/2A^D^−1/2H(l)W(l))
     D the adjacency matrix and W the weight of convolution applied on the nodes. Just a matrix multiplication to get sum of neighboring nodes (the non-related nodes have index ) in the adjacency matrix) after the node is linearly transformed.
+https://mlabonne.github.io/blog/intrognn/
 + GraphSage: Use sampling techniques to obtain the most important nodes for aggregation. 
+https://mlabonne.github.io/blog/graphsage/
 + Graph Attention Network: Use attention mechanism to compute the weights of aggregation among nodes.
+https://mlabonne.github.io/blog/gat/
 + GIN:
+Link: https://towardsdatascience.com/how-to-design-the-most-powerful-graph-neural-network-3d18b07a6e66
+https://blog.csdn.net/m0_46306014/article/details/118498341
+https://mlabonne.github.io/blog/graphsage/
+
 
 # Implementation of GCN
 - Notebooks:

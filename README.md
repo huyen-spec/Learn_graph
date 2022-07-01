@@ -20,6 +20,7 @@ https://mlabonne.github.io/blog/graphsage/
 + Graph Attention Network: Use attention mechanism to compute the weights of aggregation among nodes.
 https://mlabonne.github.io/blog/gat/
 + GIN:
+Weisfeiler-Lehman test: test if the graphs are isomorphic by calculating the sum of neighboring nodes of a node: https://davidbieber.com/post/2019-05-10-weisfeiler-lehman-isomorphism-test/
 Link: https://towardsdatascience.com/how-to-design-the-most-powerful-graph-neural-network-3d18b07a6e66
 https://blog.csdn.net/m0_46306014/article/details/118498341
 https://mlabonne.github.io/blog/graphsage/

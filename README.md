@@ -128,7 +128,8 @@ https://docs.oracle.com/cd/E18283_01/datamine.112/e16808/algo_apriori.htm#:~:tex
 
 
 # Scene graph generation:
-
+For an image, predict box, label and relationship of 2 objects in an image.
+https://arxiv.org/pdf/1701.02426.pdf
 
 
 

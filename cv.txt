@@ -1,0 +1,9 @@
+https://everitt257.github.io/post/2018/08/10/object_detection.html#:~:text=YOLO%20stands%20for%20You%20Only,regression%20at%20the%20same%20time.
+
+
+https://zhuanlan.zhihu.com/p/24916624?refer=xiaoleimlnote
+
+
+https://zhuanlan.zhihu.com/p/24916786?refer=xiaoleimlnote
+
+https://nttuan8.com/bai-11-object-detection-voi-faster-r-cnn/
